@@ -33,7 +33,7 @@ export default function SideBar() {
     <aside className="min-h-screen w-64 bg-white  p-6 flex flex-col justify-between">
         
       <div>
-      <h6 className="text-xl font-bold text-gray-600">To-Do-List</h6>
+
         {/* Profile */}
         <div className="flex flex-col items-center text-center mb-6">
           <img

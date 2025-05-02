@@ -87,7 +87,10 @@ export const getTasksTitle = async (req, res, next) => {
     ]
   });
 
-    res.status(200).json({ message: 'Done', tasks });
- 
+if(!tasks){
+  return  res.status(200).json({ message: 'no tasks'});}
+
+   return  res.status(200).json({ message: 'Done', tasks });
+
 };
 
